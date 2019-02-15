@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.8.0_161
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-DocURL: http://karaf.apache.org/
+Bundle-ManifestVersion: 2
+Bundle-Name: KHTM :: HOST-FRAGMENT :: HOST
+Bundle-SymbolicName: com.khtm.test.host
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.khtm.test.hostfragment.host;uses:="com.khtm.test.hos
+ tfragment.common";version="1.0.0"
+Export-Service: com.khtm.test.hostfragment.common.UserService;osgi.servi
+ ce.blueprint.compname=userService
+Import-Package: com.khtm.test.hostfragment.common;version="[1.0,2)",org.
+ osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
