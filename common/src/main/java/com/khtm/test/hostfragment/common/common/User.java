@@ -1,4 +1,4 @@
-package com.khtm.test.hostfragment.common;
+package com.khtm.test.hostfragment.common.common;
 
 import lombok.Builder;
 import lombok.Data;

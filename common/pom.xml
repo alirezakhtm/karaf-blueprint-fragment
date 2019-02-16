@@ -30,7 +30,7 @@
                 <configuration>
                     <instructions>
                         <Export-Package>
-                            com.khtm.test.hostfragment.common
+                            com.khtm.test.hostfragment.common.common
                         </Export-Package>
                     </instructions>
                 </configuration>

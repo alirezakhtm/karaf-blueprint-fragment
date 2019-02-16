@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
 
-    <reference id="userService" interface="com.khtm.test.hostfragment.common.UserService"/>
+    <reference id="userService" interface="com.khtm.test.hostfragment.common.common.UserService"/>
 
     <bean id="displayUser" class="com.khtm.test.hostfragment.client.DisplayUser" init-method="init">
         <property name="userService" ref="userService"/>

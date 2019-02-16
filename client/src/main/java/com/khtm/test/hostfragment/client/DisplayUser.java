@@ -1,10 +1,7 @@
 package com.khtm.test.hostfragment.client;
 
-import com.khtm.test.hostfragment.common.User;
-import com.khtm.test.hostfragment.common.UserService;
+import com.khtm.test.hostfragment.common.common.UserService;
 import lombok.Data;
-
-import java.util.Iterator;
 
 @Data
 public class DisplayUser {

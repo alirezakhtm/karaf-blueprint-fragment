@@ -34,7 +34,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <instructions>
-                        <Import-Package>com.khtm.test.hostfragment.common</Import-Package>
+                        <!--<Import-Package>com.khtm.test.hostfragment.common.common</Import-Package>-->
                         <Private-Package>com.khtm.test.hostfragment.client</Private-Package>
                     </instructions>
                 </configuration>

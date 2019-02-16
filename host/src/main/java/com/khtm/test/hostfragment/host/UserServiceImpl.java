@@ -1,7 +1,7 @@
 package com.khtm.test.hostfragment.host;
 
-import com.khtm.test.hostfragment.common.User;
-import com.khtm.test.hostfragment.common.UserService;
+import com.khtm.test.hostfragment.common.common.User;
+import com.khtm.test.hostfragment.common.common.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

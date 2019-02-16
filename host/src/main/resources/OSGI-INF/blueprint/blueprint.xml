@@ -2,6 +2,9 @@
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
 
     <bean id="userService" class="com.khtm.test.hostfragment.host.UserServiceImpl"/>
-    <service ref="userService" interface="com.khtm.test.hostfragment.common.UserService" id="userServiceImpl"/>
+    <service ref="userService" interface="com.khtm.test.hostfragment.common.common.UserService" id="userServiceImpl"/>
+
+    <bean id="userServiceFragment" class="com.khtm.test.hostfragment.host.UserServiceFragmentImpl"/>
+    <service ref="userServiceFragment" interface="com.khtm.test.hostfragment.common.common2.UserServiceFragment" id="userServiceFragmentImpl"/>
 
 </blueprint>
