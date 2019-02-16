@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Build-Jdk: 1.8.0_161
-Bundle-DocURL: http://karaf.apache.org/
-Bundle-ManifestVersion: 2
-Bundle-Name: KHTM :: HOST-FRAGMENT :: COMMON
-Bundle-SymbolicName: com.khtm.test.common
-Bundle-Version: 1.0.0.SNAPSHOT
-Export-Package: com.khtm.test.hostfragment.common;version="1.0.0"
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"

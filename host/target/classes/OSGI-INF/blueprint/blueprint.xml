@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
-
-    <bean id="userService" class="com.khtm.test.hostfragment.host.UserServiceImpl"/>
-    <service ref="userService" interface="com.khtm.test.hostfragment.common.UserService" id="userServiceImpl"/>
-
-</blueprint>
